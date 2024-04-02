@@ -1,11 +1,14 @@
 import { Fragment } from "react"
-import Todo from "./Components/Todo"
+import Main from "./Components/Main"
+
 
 const App = () => {
   return (
     <>
-      <Todo />
+      <Main />
+
       {/* <Counter /> */}
+      {/* <Todo /> */}
     </>
   )
 }
