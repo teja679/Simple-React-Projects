@@ -1,12 +1,11 @@
-import { Fragment } from "react"
-import Main from "./Components/Main"
-
+import Calculator from "./Components/Calculator"
+import "./styles.css"
 
 const App = () => {
   return (
     <>
-      <Main />
-
+      <Calculator />
+      {/*  <Main /> */}
       {/* <Counter /> */}
       {/* <Todo /> */}
     </>
